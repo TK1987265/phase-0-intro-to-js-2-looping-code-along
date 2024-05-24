@@ -18,6 +18,12 @@ function writeCards(names, event) {
   // Example use of writeCards()
   const thankYouMessages = writeCards(["Charlie", "Samip", "Ali"], "birthday");
   console.log(thankYouMessages);
+
+  module.exports = {
+    writeCards,
+    countDown
+  };
+
   
   // Example use of countDown()
   countDown(10);
